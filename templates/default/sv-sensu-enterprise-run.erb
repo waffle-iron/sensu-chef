@@ -1,0 +1,15 @@
+#!/bin/sh
+
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+export PATH
+
+name=sensu-enterprise
+program=/usr/bin/sensu-enterprise
+
+MAX_OPEN_FILES=16384
+
+[ -r /etc/default/$name ] && . /etc/default/$name
+[ -r /etc/sysconfig/$name] && . /etc/sysconfig/$name
+
+exec 2>&1
+exec chpst -u $USER $program $options
