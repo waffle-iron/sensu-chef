@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/sensu/sensu-chef.png?label=ready&title=Ready)](https://waffle.io/sensu/sensu-chef)
 ![sensu](https://raw.github.com/sensu/sensu/master/sensu-logo.png)
 
 [![Build Status](https://img.shields.io/travis/sensu/sensu-chef.svg)](https://travis-ci.org/sensu/sensu-chef) [![Cookbook Version](https://img.shields.io/cookbook/v/sensu.svg)](https://supermarket.chef.io/cookbooks/sensu)[![Build Status](https://jenkins-01.eastus.cloudapp.azure.com/job/sensu-cookbook/badge/icon)](https://jenkins-01.eastus.cloudapp.azure.com/job/sensu-cookbook/)
